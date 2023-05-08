@@ -1,0 +1,430 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Playfair Display',serif;
+}
+@media all {
+body{
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0%;
+  padding: 0%;
+}
+
+.sec1 {
+  border: 1px solid black; /* Add a border */
+  padding: 10px; /* Add some padding */
+ /* width: 500px; /* Set the width */
+  margin: 0 auto; /* Center the section */
+  background-color: aliceblue;
+  border-radius: 6px;
+  margin-right: 1%;
+  width: 50%;
+
+}
+
+/* Style the image */
+.sec1 img {
+  display: block; /* Make it a block element */
+  max-width: 200px; /* Set the maximum width */
+  height: auto; /* Keep the aspect ratio */
+}
+
+img{
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.container{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  /* margin-top: 1%; */
+  padding: 1%;
+
+
+}
+
+p{
+  margin: 7px 0;
+}
+
+button{
+  width: 100px;
+  background: transparent;
+  border: none;
+  background: #790000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: all 0.35s ease;
+}
+button:hover{
+  cursor: pointer;
+  background:#c50000;
+}
+
+.aa{
+width: 90%;
+background: transparent;
+border: none;
+background: #790000;
+color: #fff;
+padding: 10px;
+border-radius: 4px;
+font-size: 16px;
+transition: all 0.35s ease;
+margin-left: 5%;
+margin-bottom: 30px;
+}
+
+
+/* 2222222222222 */
+
+/* body{
+  background-color:black;
+} */
+.main{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display:inline-block;
+  padding-left: 17%;
+  background-color:#1c1b1b; 
+} 
+
+.container-G{
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px 15px;
+  background:#1c1b1b; 
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  list-style: none;
+}
+
+.material-icons-G{
+  color:white;
+} 
+
+.search-bar-G{
+  width: 100%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  border:3px solid white;
+  margin-bottom: 10px;
+}
+
+.search-bar-G input{
+ background: transparent;
+ flex:1;
+ border:0;
+ outline:none;
+ padding: 10px 10px;
+ font-size: 10px;
+}
+
+.search-bar-G button{
+ border:0;
+ border-radius: 50%;
+ width:30px;
+ height:30px;
+ cursor: pointer;
+ background:rgba(255, 255, 255, 0.2)
+}
+
+li:hover{
+  visibility: visible;
+  background-color:grey;
+  border-radius: 50px;
+  width: 100%;
+}
+
+a{
+  font-family:'Playfair Display',serif;
+  font-size: 20px;
+  padding: 10px;
+  line-height: 50px;
+  text-decoration: none;
+  display:inline-flex;
+  color: white;
+}
+
+h2{
+  padding: 30px;
+  color:white;
+}
+
+main{
+  margin-left: 250px;
+}
+
+.sec1{
+ /* background:rgb(226, 255, 255,0.2);
+  backdrop-filter: blur(10px);
+  color:white;*/
+  background-color: #1c1b1b; 
+  color:white;
+  border:1px solid darkred;
+  margin-left: 1rem ;
+}
+
+.sec1:hover{
+  color: #ffffff;
+  background-color: #0a0a0a;
+}
+
+.material-icons{
+  color: white;
+}
+
+.container-h
+ {
+    background:hsla(180, 4%, 31%, 0.29);
+    backdrop-filter: blur(10px);
+    padding: 17px 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 50px;
+}
+  
+h4 
+{
+    padding-bottom: 5px;
+    color:white;
+}
+
+.input-box 
+{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+  
+.input
+{
+    width: 100%;
+    padding: 11px;
+    text-align: center;
+    background-color: #fcfcfc;
+    transition: 0.3s;
+    outline: none;
+    border: 1px solid #c0bfbf;
+    border-radius: 3px;
+}
+  
+.input:focus 
+{
+    box-shadow: 0 0 2px 1px #810000;
+    border: 1px solid #810000;
+}
+  
+.button
+{
+    width: 100px;
+    border: none;
+    background: #810000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.35s ease;
+}
+  
+button:hover 
+{
+    cursor: pointer;
+    background: #b50000;
+}
+  
+input[type="file"]
+{
+    display: none;
+}
+  
+label.input 
+{
+    background-color:  #f7f7f7;
+    color: #810000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+label.input:hover
+{
+    background-color:  #dadada;
+}
+  
+.input-box1 
+{
+    width: 100%;
+    margin-right: 1%;
+    position: relative;
+    display: flex;
+    margin-bottom: 15px;
+}
+  
+#des
+{
+    height: 100px;
+}
+
+footer h1{
+  position: relative;
+  top: 10px;
+  left:52%;
+  word-spacing:15px;
+  color: white;
+}
+
+.location-list{
+  position: relative;
+  top: 20px;
+  left:30%;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.location-list li{
+  margin-bottom: 10px;
+}
+
+.button-link {
+  display: inline-block;
+  background-color:darkred;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+.tablelist{
+  position: relative;
+  text-align: center;
+}
+.button-link:hover {
+  background-color:rgb(159, 21, 21);
+}
+
+
+h1 {
+  margin-top: 0;
+  color: darkred;
+  text-align: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deleting {
+  background-color: darkred;
+  padding: 12px;
+  border-radius: 4px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+}
+input[type="text"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 16px;
+}
+.delbtn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: white;
+  color: darkred;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.output-message {
+  text-align: center;
+  background-color: white;
+  border: 1px solid white;
+  color: darkred;
+  margin: 10px 0;
+  padding: 10px;
+}
+.price {
+  color: white;
+  background-color: darkred;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.currency {
+  font-size: 0.8em;
+  margin-right: 5px;
+}
+
+.play-id {
+  color: darkred;
+  font-weight: bold;
+font-size: x-large;
+  align-items: center;
+}
+
+.label {
+  font-size: 0.8em;
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+.edit-link {
+  color: white;
+  text-decoration: none;
+  border: 1px solid darkred;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.edit-link:hover {
+  background-color: darkred;
+  color: white;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

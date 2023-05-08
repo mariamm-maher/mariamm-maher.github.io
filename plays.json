@@ -1,0 +1,51 @@
+[
+    {
+        "id": "10005000",
+        "title": "romeo and juliet",
+        "image": "R.jfif",
+        "price": "250",
+        "description": "An age-old vendetta between two powerful families erupts into bloodshed.A group of masked Montagues risk further conflict by gatecrashing a Capulet party.A young lovesick Romeo Montague falls instantly in love with Juliet Capulet, who is due to marry her father's choice."
+    },
+    {
+        "id": "10006000",
+        "title": "Antony and clepatra",
+        "image": "antony-and-cleopatra.jpg",
+        "price": "250",
+        "description": "The love affair between Mark Antony, the Roman military leader and Cleopatra, the queen of Egypt.Cleopatra is notorious for having charmed some of the great men of her era, including Caesar; Antony himself loves her passionately. Antony, however, is married to Fulvia, who is an enemy of Antony’s fellow triumvir, Octavius Caesar. While Antony is in Egypt with Cleopatra, he receives word that Fulvia has died, and he must return to Rome. There he marries Octavius’s sister Octavia in an attempt to heal the political rift. Cleopatra is furious when she hears about the marriage.War breaks out between Octavius and Antony."
+    },
+    {
+        "id": "10007000",
+        "title": "Merchant of Venice",
+        "image": "665210d6-7b13-472c-825e-0898dad3641f.jpg",
+        "price": "250",
+        "description": "Antonio, an antisemitic merchant, takes a .loan from the Jew Shylock to help his friend to court Portia. Antonio can't repay the loan, and without mercy, Shylock demands a pound of his flesh. The heiress Portia, now the wife of Antonio's friend, dresses as a lawyer and saves Antonio"
+    },
+    {
+        "id": "10008000",
+        "title": "Julius Caesar",
+        "image": "R (1).jfif",
+        "price": "250",
+        "description": "Jealous conspirators convince Caesar's friend Brutus to join their assassination plot against Caesar. To stop Caesar from gaining too much power, Brutus and the conspirators kill him on the Ides of March. Mark Antony drives the conspirators out of Rome and fights them in a battle."
+    },
+    {
+        "id": "10009000",
+        "title": "كده اوكيه",
+        "image": "mov55.jpg",
+        "price": "200",
+        "description": "يتراهن مدير إحدى القنوات الفضائية مع مذبع شاب على قوة النقود وقدرتها فى تحويلابنة الجناينى إلى نجمة مشهورة بل وجعل خطيبة أحد المعدين تتركه وتحب المدير وينجح في ذلك، لكن الأمور تأخذ طريقًا آخر"
+    },
+    {
+        "id": "10006050",
+        "title": "الزعيم",
+        "image": "azaeem1.jpg",
+        "price": "250",
+        "description": "زينهم رجل بسيط، يعمل كومبارس في السينما، ويشبه زعيم البلاد لحد التطابق، ويستغل رجال الدولة هذا التشابه بعد وفاة الزعيم ويطلبوا منه أداء شخصية الزعيم كأنه لا زال حيًا."
+    },
+    {
+        "id": "10005050",
+        "title": "مدرسة المشاغبين",
+        "image": "_315x420_0c9c84f22f140830febfcafc0efdc01771e97705b4fc834cdf658cd559a2941c.jpg",
+        "price": "200",
+        "description": " مدرسة بها اكثر خمسة طلاب مشهورين في البلاد والذين يواصلون الفشل ويستعيدون عامهم الاخير من المدرسة الثانوية. تؤدي مقالب الطلاب المستمرة كل المعلمين الي انهيار عقلي مما يجبرهم علي ترك المدرسة ذا يجبر مدير المدرسة “حسن مصطفى” على قصر موارد المدرسة على فصل واحد للخمسة وتعليمهم بنفسه في وقت لاحق من المسرحية تتطوع معلمة أخرى “سهير البابلي” لمساعدةالطلاب باستخدام طرق تدريس غير تقلدي"
+    }
+]

@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    background-image: url("Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container {
+    max-width: 430px;
+    background: #fff;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 15px 20px #abb2b9;
+  }
+  .container .form {
+    padding: 30px;
+  }
+  .container .form .title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    color: darkred;
+    padding-bottom: 8px;
+    border-bottom: 1px solid silver;
+  }
+  .form .input-field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .input-field input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid#ccc;
+    border-right: 1px solid#ccc;
+    border-radius: 5px;
+  }
+  .input-field input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  .input-field i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: darkred;
+    font-size: 20px;
+    transition: all 0.25 ease;
+  }
+  .input-field input:is(:focus, :valid) ~ i {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  .input-field i.icon {
+    left: 3%;
+  }
+  .input-field i.showHidePw {
+    right: 3%;
+  }
+  .form .checkbox-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: rgb(125, 122, 122);
+  }
+  .checkbox-text .checkbox-content {
+    display: flex;
+    align-items: center;
+  }
+  .checkbox-content input {
+    accent-color: #4070f4;
+    margin: 0 8px 0 4px;
+  }
+  .form .text {
+    color: #333;
+    font-size: 16px;
+  }
+  .form a .text {
+    color: #4070f4;
+    text-decoration: none;
+  }
+  .form a:hover {
+    text-decoration: underline;
+  }
+  .form .button {
+    margin-top: 35px;
+  }
+  .form .button input {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: darkred;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input:hover {
+    background-color: rgb(186, 0, 0);
+  }
+  .form .Login-signup {
+    margin-top: 30px;
+    text-align: center;
+  }
+  /* login fel nos */
+  .form.Login .title {
+    display: flex;
+    justify-content: center;
+  }
+  /* 3shan el frame bta3 el input */
+  .input-field input:focus {
+    outline: none;
+    border: none;
+  }
+  /* el kalam bel azra' */
+  .text1 {
+    color: rgb(38, 0, 255);
+  }
+  button {
+    width: 100%;
+    background: transparent;
+    border: none;
+    background: #810000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.35s ease;
+  }
+  button:hover {
+    cursor: pointer;
+    background: #b50000;
+  }
+  
+  .usertype {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  #typeuser {
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+  }
+  
